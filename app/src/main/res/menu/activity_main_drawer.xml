@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_activities"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Actividades" />
+        <item android:id="@+id/nav_customers"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Clientes" />
+        <item android:id="@+id/nav_items"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Articulos" />
+        <item android:id="@+id/nav_catalog"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Catalogo" />
+        <item android:id="@+id/nav_order"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Pedidos" />
+        <item android:id="@+id/nav_sync"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Sincronizar" />
+    </group>
+
+
+    <item android:title="Configuration">
+        <menu>
+            <item android:id="@+id/nav_config"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Configuraciones" />
+            <item android:id="@+id/nav_signup"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>
